@@ -1,4 +1,4 @@
-package com.sriTech.vms;
+package com.vms;
 
 public class ExEmployee {
 
