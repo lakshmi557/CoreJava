@@ -6,8 +6,8 @@ public class Trainer extends Student{
 	int salary;
 	String type;
 	
-	Trainer(String subject, int salary,String type){
-		super(557, "Manikonda, Hyderabad");
+	Trainer(String subject, int salary,String type, int studentnum, String studentAddress ){
+		super(studentnum, studentAddress);
 		this.subject = subject;
 		this.salary = salary;
 		this.type = type;
